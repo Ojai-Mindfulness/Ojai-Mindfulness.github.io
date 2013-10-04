@@ -1,0 +1,136 @@
+/* Reset Styles */
+body,h1,h2,h3,ul,li,img,p{margin:0;padding:0;border:0;}
+
+/* Universal Styling */
+body {
+background:#caa752 url(../img/global-bg.png);
+color:#444;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:70%;
+}
+
+h1 {
+font-weight:400;
+font-size:150%;
+}
+
+a{color:#333;background:inherit;}
+a:hover{text-decoration:none;}
+ul,li{list-style:none;display:inline;}
+
+/* IDs */
+#container {
+background:url(../img/global-gradient.png) repeat-x;
+height:300px;
+}
+
+#splash {
+background:url(../img/global-splash.png) no-repeat;
+height:75px;
+}
+
+#wrap {
+margin:auto;
+width:500px;
+}
+
+#nav {
+border-right:1px solid #c49e46;
+float:left;
+margin-top:25px;
+width:85px;
+}
+
+#nav a {
+background:inherit;
+color:#444;
+display:block;
+font-size:90%;
+height:16px;
+margin-top:4px;
+padding-left:7px;
+padding-top:4px;
+text-decoration:none;
+width:73px;
+}
+
+#nav a:hover{color:#444;background:#dcbc71;}
+#nav .current{color:#444;background:#dcbc71;}
+
+#content {
+float:right;
+margin-top:25px;
+width:400px;
+}
+
+#content p{margin-bottom:20px;}
+
+#footer {
+font-size:90%;
+margin-top:50px;
+padding-bottom:10px;
+text-align:right;
+}
+
+#footer a{color:#444;background:inherit;}
+
+/* Classes */
+.work-container {
+background:#d4b465;
+color:#444;
+height:61px;
+margin-top:3px;
+margin-bottom:20px;
+padding-top:9px;
+text-align:center;
+}
+
+.work-container a {
+background:#d4b465;
+color:#444;
+float:left;
+font-size:10px;
+margin-left:14px;
+margin-right:14px;
+text-decoration:none;
+}
+
+.work-container a:hover{color:#222;background:#d4b465;}
+.work-container a:hover img{border:1px solid #555;}
+.work-container img{border:1px solid #777;}
+
+/* Image Replacement */
+#what {
+height:17px;
+background:url(../img/t_what-are-you-doing-here.png) no-repeat;
+margin-bottom:3px;
+}
+#what span{display:none;}
+
+#finished {
+height:17px;
+background:url(../img/t_sites-i-just-finished.png) no-repeat;
+margin-bottom:5px;
+}
+#finished span{display:none;}
+
+#working {
+height:17px;
+background:url(../img/t_sites-im-working-on.png) no-repeat;
+margin-bottom:5px;
+}
+#working span{display:none;}
+
+#about {
+height:17px;
+background:url(../img/t_about-me.png) no-repeat;
+margin-bottom:5px;
+}
+#about span{display:none;}
+
+#work {
+height:17px;
+background:url(../img/t_my-work.png) no-repeat;
+margin-bottom:5px;
+}
+#work span{display:none;}
